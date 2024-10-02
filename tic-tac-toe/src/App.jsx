@@ -36,6 +36,7 @@ function deriveGameBoard(gameTurns) {
 
       gameBoard[row][col] = player;
   } 
+  return gameBoard;
 }
 
 function deriveWinner(gameBoard, player) {
